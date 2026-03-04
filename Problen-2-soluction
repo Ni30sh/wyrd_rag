@@ -1,0 +1,54 @@
+## Problem: The Useless Support Inbox
+
+The main issue with the support inbox is not that answering questions is difficult — it is that many of the questions are repetitive. Support staff spend time reading and responding to messages that are already answered in the company documentation.
+
+Instead of building a new AI chatbot or complex automation system, the simplest fix is to improve how incoming questions are matched to existing documentation.
+
+### Proposed Solution
+
+The support workflow can be improved by automatically surfacing relevant documentation when a support request arrives.
+
+When a new email or support message comes in:
+
+1. The message text is analyzed.
+2. The system searches the company documentation for the most relevant sections.
+3. The most relevant documentation links or excerpts are shown to the support agent.
+
+This allows the support team to quickly find the correct answer without manually searching through the wiki.
+
+### Updated Support Workflow
+
+Current workflow:
+
+Customer Question → Human reads email → Human searches documentation → Human writes reply
+
+Improved workflow:
+
+Customer Question → System suggests relevant documentation → Support agent reviews → Agent sends reply
+
+This keeps the human in control while removing the time spent searching through documents.
+
+### Benefits
+
+This approach improves efficiency without introducing unnecessary complexity.
+
+* Support agents spend less time searching for answers.
+* Responses stay consistent with the official documentation.
+* The system reduces repetitive work rather than trying to replace support staff.
+* Implementation is simple because it reuses the existing documentation.
+
+### Possible Improvements
+
+Over time, additional improvements could be introduced:
+
+* Track frequently asked questions and convert them into a public FAQ.
+* Add suggested reply templates for common questions.
+* Automatically tag incoming emails based on topic.
+
+### Limitations
+
+This approach works best when questions already have answers in the documentation. More complex issues, account-specific problems, or troubleshooting cases will still require manual responses from support staff.
+
+### Conclusion
+
+The goal is not to replace support agents but to remove unnecessary friction in their workflow. By automatically surfacing the most relevant documentation for each question, the support team can respond faster and spend more time on complex problems that require human judgment.
