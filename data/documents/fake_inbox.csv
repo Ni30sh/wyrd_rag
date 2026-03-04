@@ -1,0 +1,7 @@
+ticket_id,from_email,subject,message,priority,status
+1001,user1@example.com,Password reset not working,"I clicked reset password but never received the email. Please help.",high,open
+1002,user2@example.com,Billing card declined,"My monthly payment failed with a card declined error even though funds are available.",high,open
+1003,user3@example.com,Need invoice copy,"Can you send me invoices for Jan and Feb for reimbursement?",medium,open
+1004,user4@example.com,App crashes on upload,"When I upload a PDF larger than 20MB, the app crashes.",high,investigating
+1005,user5@example.com,How to export data,"I want to export all my account data to CSV.",low,open
+1006,user6@example.com,Change subscription plan,"How can I upgrade from basic to pro plan?",medium,open

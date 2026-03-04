@@ -1,0 +1,10 @@
+pypdf
+pymupdf
+sentence-transformers
+chromadb
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-vector-stores-chroma
+python-dotenv
+langgraph
