@@ -1,7 +1,3 @@
-"""
-Gradio Chat Interface for RAG System
-Interactive question-answering interface with Gradio
-"""
 
 import gradio as gr
 from pathlib import Path
@@ -88,7 +84,7 @@ def init_chat_interface():
         
         # Setup query engine
         retriever = VectorIndexRetriever(index=index, similarity_top_k=2)
-        query_engine = RetrieverQueryEngine(retriever=retriever, llm=llm)
+        query_engine = RetrieverQueryEngine(retriever=retriever)
         
         print("✅ RAG system ready!")
         chat_history = []
@@ -165,8 +161,7 @@ def main():
     demo.launch(
         server_name="localhost",
         server_port=7860,
-        share=False,
-        show_api=False
+        share=False
     )
 
 
